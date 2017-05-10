@@ -2,6 +2,7 @@ $(document).ready(function() {
 
     var bigGrill = $('#square');
 
+
     var makeGrill = function(size) {
       var cellSize = 480 / size;
       var cell = $('<div style="height: '+ cellSize +'px; width: '+ cellSize +'px"></div>');
@@ -20,7 +21,7 @@ $(document).ready(function() {
     $('.clear').on('click', function() {
         $('div').removeClass('highlight');
         bigGrill.children($('div')).detach();
-        var grillSize = prompt("Quelle taille de grille souhaitez-vous (entre 1 et 200 cases) ?");
+        var grillSize = prompt("Quelle taille de grille souhaitez-vous (entre 1 et 40 cases) ?");
         for(var i = 0; i < grillSize; i++) {
             for(var y = 0; y < grillSize; y++) {
                 makeGrill(grillSize);
