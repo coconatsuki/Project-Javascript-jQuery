@@ -35,44 +35,37 @@ input {
     border: 1px solid #5D301C;
     font-size: 20px;
     display: block;
-    width : 110px;
+    width : 125px;
     height : 50px;
     font-size: 20px;
     position:absolute;
+    right : 28px;
     cursor: pointer;
 }
 
 .clear {
   top : 25%;
-  right : 35px;
 }
 .erase {
   top : 35%;
-  right : 35px;
-
 }
 .black {
   background-color: black;
   top : 45%;
-  right : 35px;
 }
 .blue {
   top : 55%;
-  right : 35px;
   background-color: #5F7ECD;
 }
 .red {
   top : 65%;
-  right : 35px;
   background-color: #EA1F22;
 }
 .yellow {
   top : 75%;
-  right : 35px;
   background-color: #F9F343;
 }
 .green {
   top : 85%;
-  right : 35px;
   background-color: #3AB238;
 }
