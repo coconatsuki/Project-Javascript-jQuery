@@ -7,7 +7,7 @@ $(document).ready(function() {
       var cell = $('<div style="height: '+ cellSize +'px; width: '+ cellSize +'px"></div>');
       bigGrill.append(cell);
       cell.hover(function() {
-          $(this).addClass('highlight');
+          $(this).addClass('black');
       });
     };
 
@@ -27,4 +27,37 @@ $(document).ready(function() {
             };
         };
     });
+
+    $('.blue').on('click', function() {
+      $('div').hover(function() {
+          $(this).removeClass().addClass('blue');
+      });
+    });
+
+    $('.black').on('click', function() {
+      $('div').hover(function() {
+          $(this).removeClass().addClass('black');
+      });
+    });
+    $('.erase').on('click', function() {
+      $('div').hover(function() {
+          $(this).removeClass();
+      });
+    });
+    $('.red').on('click', function() {
+      $('div').hover(function() {
+          $(this).removeClass().addClass('red');
+      });
+    });
+    $('.yellow').on('click', function() {
+      $('div').hover(function() {
+          $(this).removeClass().addClass('yellow');
+      });
+    });
+    $('.green').on('click', function() {
+      $('div').hover(function() {
+          $(this).removeClass().addClass('green');
+      });
+    });
+
 });

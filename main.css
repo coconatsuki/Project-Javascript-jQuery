@@ -1,20 +1,26 @@
+body {
+  width : 1200px;
+  height: 702px;
+  margin: 0 auto;
+  background: #000 url(images/chevalet12.jpg) center center no-repeat ;
 
+}
 div {
 width: 30px;
 height: 30px;
 float: left;
-
 }
+
 
 #square {
     width : 480px;
     height : 480px;
-    background-color: white;
+    background : white url(images/toile2.jpg) center center no-repeat ;
     margin: 0 auto;
-    border: 3px solid black;
+    border: 2px solid #5D301C;
     position:absolute;
-    top : 15%;
-    left: 35%;
+    top : 25%;
+    left: 53%;
 }
 
 p {
@@ -22,15 +28,51 @@ p {
   line-height: 2px;
   font-size: 15px;
 }
-.clear {
-  display: block;
-  margin : 20px auto;
-  width : 100px;
-  height : 50px;
-  font-size: 20px;
+input {
+  background: #000 url(images/bois.jpg) center center no-repeat ;
+  -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #5D301C;
+    font-size: 20px;
+    display: block;
+    width : 110px;
+    height : 50px;
+    font-size: 20px;
+    position:absolute;
+    cursor: pointer;
 }
 
+.clear {
+  top : 25%;
+  right : 35px;
+}
+.erase {
+  top : 35%;
+  right : 35px;
 
-.highlight {
+}
+.black {
   background-color: black;
+  top : 45%;
+  right : 35px;
+}
+.blue {
+  top : 55%;
+  right : 35px;
+  background-color: #5F7ECD;
+}
+.red {
+  top : 65%;
+  right : 35px;
+  background-color: #EA1F22;
+}
+.yellow {
+  top : 75%;
+  right : 35px;
+  background-color: #F9F343;
+}
+.green {
+  top : 85%;
+  right : 35px;
+  background-color: #3AB238;
 }
