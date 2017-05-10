@@ -9,7 +9,7 @@ $(document).ready(function() {
       bigGrill.append(cell);
       cell.hover(function() {
           $(this).addClass('black');
-          $(this).css("opacity", "+=0.10");
+          $(this).css("opacity", "+=0.15");
       });
     };
 
