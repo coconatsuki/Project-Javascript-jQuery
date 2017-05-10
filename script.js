@@ -7,7 +7,7 @@ $(document).ready(function() {
       var cellSize = 480 / size;
       var cell = $('<div style="height: '+ cellSize +'px; width: '+ cellSize +'px"></div>');
       bigGrill.append(cell);
-      cell.house(function() {
+      cell.hover(function() {
           $(this).addClass('black');
       });
     };
